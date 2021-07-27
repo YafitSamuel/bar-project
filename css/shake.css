@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    background-image: url(https://images.unsplash.com/photo-1582738411706-bfc8e691d1c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTU3fHxiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
+    font-family: 'Otomanopee One', sans-serif;
+    background-size: cover;
+   background-repeat: no-repeat;
+}
+nav{
+    font-size: large;
+   
+}
+.containerlogo{
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo{
+    width: 150px;
+    height: 100px;
+}
+.listnavbar{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    /* padding: 2%; */
+    font-weight: bold;
+}
+
+.listnavbar a{
+    text-decoration: none;
+  color: rgb(143, 130, 55);
+    
+}
+
+.listnavbar a:hover{
+    background-color: rgba(128, 0, 128, 0.151);
+}
+.navbarandlogo{
+    width: 100%;
+    display: flex; 
+    justify-content: space-evenly;
+}
+.navbarandlogo  nav, img{
+    width: 30%;
+   font-size: large;
+   padding: 30px;
+
+}
+
+#video{
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+}
+ 
+.shake{ 
+    width: 100%;
+    display: flex; 
+    justify-content: space-evenly;
+    margin-top: 20px;
+
+}
+.shake form , p{
+    height: 300px;
+    width: 45% ;
+   font-size: large;
+   direction: rtl;
+   font-size: x x-large;
+   padding: 20px;
+}
+span{ font-size: xx-large;
+ color: rgb(143, 130, 55);
+}
+form{
+    background-color:rgba(77, 73, 51, 0.13);
+    border-radius: 30px;
+    margin-bottom: 10px;
+  
+}
+p{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul{
+    width: 94vw;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(165, 151, 61);
+    direction: rtl;
+    padding: 25px;
+
+}
+.foterlist{
+    width: 33%;
+    color: black;
+    direction: rtl;
+
+}
