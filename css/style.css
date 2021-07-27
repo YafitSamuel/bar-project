@@ -1,0 +1,232 @@
+
+
+body{
+    color:black;
+    font-family: 'Otomanopee One', sans-serif;
+   background-image: url(https://images.unsplash.com/photo-1582738411706-bfc8e691d1c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTU3fHxiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
+   background-size: cover;
+   background-repeat: no-repeat;
+
+    
+}
+nav{
+    background-color: rgb(143, 130, 55);
+}
+
+.containerlogo{
+    display: flex; 
+    justify-content: space-evenly;
+
+}
+
+ .logo{
+    width: 20%;
+    height: 20%;
+
+}
+
+.listnavbar{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 1%;
+    font-weight: bold;
+    transition-duration: 2s;
+    
+}
+
+.listnavbar a{
+    text-decoration: none;
+    color: black;
+  
+    
+}
+
+.listnavbar a:hover{
+    background-color: rgba(128, 0, 128, 0.151);
+    
+}
+.slider{
+    width: 90%;
+    height: 70vh;
+    display: flex;
+    overflow: hidden;
+    margin-right: 400%;
+    margin-left: 5%; 
+}
+.slider .card {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    animation: moveside 10s alternate infinite;
+    animation-delay: 5s;
+}
+.slider .card img{
+    width: 100%;
+    height: 100%;
+}
+@keyframes moveside {
+    0%{
+        transform: translateX(-0%);
+    }
+    25%{
+        transform: translateX(-100%)
+    }
+    50%{
+        transform: translateX(-200%)
+    }
+    75%{
+        transform: translateX(-300%)
+    }
+    100%{
+        transform: translateX(-400%)
+    }
+    
+}
+  
+.onesection{
+    width: 100%;
+    margin-top:  200px;
+   
+}
+.onesection img{
+    width: 100% ;
+    height:600px;
+    margin-bottom:  200px;
+
+}
+h2{
+    text-align: center;
+    font-size:50px;
+  
+}
+
+.aboutas{ 
+    width: 100%;
+    display: flex; 
+    justify-content: space-evenly;
+    
+
+}
+.aboutas img , p{
+    height: 500px;
+    width: 45% ;
+   font-size: large;
+   direction: rtl;
+   padding: 30px;
+ 
+}
+.aboutas span{
+ font-weight: bold;
+font-size: 40px;
+
+
+}
+button{
+    margin-top: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+button:hover{
+    color:rgb(15, 83, 21);
+    background-color:blanchedalmond;
+    
+   
+}
+.eightpic{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.eightpic img{
+    width: 20%;
+    height: 200px;
+    margin: 10px;
+    transition: 2s;
+    
+}
+.eightpic img:hover{
+    width: 23% ;
+    height:23% ;
+    
+
+}
+h1{
+    direction: rtl;
+}
+.containerform{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form{
+    margin-top: 100px;
+    direction: rtl;
+}
+@media screen and (max-width: 425px){
+    .aboutas img , p{
+        width: 50%;
+        height: 100%;
+        font-size: 50%;
+     }
+}
+ul{
+    width: 94vw;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(165, 151, 61);
+    direction: rtl;
+    padding: 25px;
+
+}
+.foterlist{
+    width: 33%;
+    color: black;
+    direction: rtl;
+
+}
+
+    
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+animation-name: example;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+background-size:cover;
+
+}
+
+@keyframes example {
+0% {background-image: url(https://cdn.pixabay.com/photo/2017/09/25/13/12/dog-2785074_1280.jpg);}
+25%{background-image: url(https://cdn.pixabay.com/photo/2015/03/26/09/54/pug-690566__340.jpg);}
+50% {background-image: url(https://cdn.pixabay.com/photo/2019/08/19/07/45/dog-4415649__340.jpg);}
+100%{background-image: url(https://media.istockphoto.com/photos/british-shorthair-and-golden-retriever-picture-id1271494334?b=1&k=6&m=1271494334&s=170667a&w=0&h=ZeLa5KNjpQLEhpQnBioFqimxPgej3X2JYNeITTuNkxM=);}
+
+} */
