@@ -88,6 +88,7 @@ h2{
 .aboutus{ 
     width: 100%;
     display: flex; 
+    
     justify-content: space-evenly;
     background-color: rgb(143, 130, 55) ;
     
@@ -167,7 +168,20 @@ h1{
     font-weight: bold;
 }
    
-
+@media screen and (max-width:430px){
+    .aboutus{
+        flex-wrap: wrap;
+    }
+    .aboutus img{
+        width: 100%;
+        
+    }
+    
+    .aboutus span{
+        font-size: 18px;
+        
+    }
+}
 
 
 
