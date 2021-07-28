@@ -1,6 +1,7 @@
 
 
 body{
+   
     color:black;
     font-family: 'Otomanopee One', sans-serif;
    background-image: url(https://images.unsplash.com/photo-1582738411706-bfc8e691d1c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTU3fHxiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
@@ -11,6 +12,7 @@ body{
 }
 nav{
     background-color: rgb(143, 130, 55);
+
     
 }
 
@@ -32,22 +34,20 @@ nav{
     list-style: none;
     padding: 1%;
     font-weight: bold;
-    /* transition-duration: 2s; */
+    transition-duration: 2s;
     
 }
 
 .listnavbar a{
     text-decoration: none;
-    color: black;
+    color: white;
   
-    
 }
 
 .listnavbar a:hover{
-    background-color: rgba(173, 154, 173, 0.411)
+    background-color: rgba(173, 154, 173, 0.411);
+    font-weight: bold;
     
-   
-
 }
 
 .slider{
@@ -104,15 +104,15 @@ h2{
     font-size:50px;
   
 }
-
-.aboutas{ 
+.aboutus{ 
     width: 100%;
     display: flex; 
     justify-content: space-evenly;
+    background-color: rgb(143, 130, 55) ;
+   
     
-
 }
-.aboutas img , p{
+.aboutus img , p{
     height: 500px;
     width: 45% ;
    font-size: large;
@@ -120,24 +120,16 @@ h2{
    padding: 30px;
  
 }
-.aboutas span{
+.aboutus span{
  font-weight: bold;
 font-size: 40px;
 
+}
 
-}
-button{
-    margin-top: 100px;
-    padding: 10px;
-    border-radius:  10px;
-    background-color: rgba(207, 186, 23, 0.623);
-    
-}
 button:hover{
     color:rgb(15, 83, 21);
     background-color:white
     
-   
 }
 .eightpic{
     width: 100%;
@@ -147,15 +139,16 @@ button:hover{
     
 }
 .eightpic img{
-    width: 20%;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     margin: 10px;
-    transition: 2s;
-    
+   
 }
+
 .eightpic img:hover{
-    width: 23% ;
-    height:23% ;
+    width: 270px ;
+    height: 270px ;
+    transition: 2s;
     
 
 }
@@ -173,6 +166,8 @@ h1{
    background-color: rgba(207, 186, 23, 0.623);
     padding: 40px;
     border-radius: 30px;
+    font-weight: bold;
+    
 }
 @media screen and (max-width: 425px){
     .aboutas img , p{
@@ -194,36 +189,8 @@ ul{
     width: 33%;
     color: black;
     direction: rtl;
+    font-weight: bold;
    
-
-
-
-
-
-
-
-
-    
-
-
-
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
