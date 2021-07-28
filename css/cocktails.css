@@ -86,4 +86,12 @@ ul{
     height: 30px;
 
 }
+@media screen and(max-device-width:430) {
+    .containercocktail{
+        width: 50%;
+    }
+
+}
+    
+
    
