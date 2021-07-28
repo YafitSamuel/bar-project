@@ -11,21 +11,12 @@ body{
    overflow-x: hidden;
 }
 
-nav{
-    font-size: large;
-    
-   
-}
-.containerlogo{
-    display: flex; 
-    justify-content: space-evenly;
-    align-items: center;
-    animation-name: logo;
-}
+
 .logo{
     width: 150px;
     height: 100px;
 }
+
 .listnavbar{
     display: flex;
     justify-content: space-evenly;
@@ -42,18 +33,6 @@ nav{
 .listnavbar a:hover{
     background-color:black;
     font-weight: bold;
-}
-.navbarandlogo{
-    width: 100%;
-    display: flex; 
-    justify-content: space-evenly;
-    
-
-}
-.navbarandlogo  nav, img{
-    width: 30%;
-   font-size: large;
- 
 }
 
 #video{
@@ -106,6 +85,10 @@ span{ font-size: xx-large;
     
 }
 
+
+
+
+
 ul{
     width: 94vw;
     display: flex;
@@ -113,10 +96,9 @@ ul{
     background-color: rgb(165, 151, 61);
     direction: rtl;
     padding: 25px;
-    margin-bottom: 100px;
-
-
+   
 }
+
 .foterlist{
     width: 33%;
     color: black;

@@ -8,24 +8,19 @@ body{
    background-size: cover;
    background-repeat: no-repeat;
 
-    
 }
 nav{
-    background-color: rgb(143, 130, 55);
-
-    
+    background-color: rgb(143, 130, 55); 
 }
 
 .containerlogo{
     display: flex; 
     justify-content: space-evenly;
-
 }
 
- .logo{
+.logo{
     width: 20%;
     height: 20%;
-
 }
 
 .listnavbar{
@@ -41,13 +36,10 @@ nav{
 .listnavbar a{
     text-decoration: none;
     color: white;
-  
 }
 
 .listnavbar a:hover{
-    background-color: rgba(173, 154, 173, 0.411);
-    font-weight: bold;
-    
+    color: black;
 }
 
 .slider{
@@ -87,18 +79,7 @@ nav{
     }
     
 }
-  
-.onesection{
-    width: 100%;
-    margin-top:  200px;
-   
-}
-.onesection img{
-    width: 100% ;
-    height:600px;
-    margin-bottom:  200px;
 
-}
 h2{
     text-align: center;
     font-size:50px;
@@ -109,52 +90,46 @@ h2{
     display: flex; 
     justify-content: space-evenly;
     background-color: rgb(143, 130, 55) ;
-   
     
 }
+
 .aboutus img , p{
     height: 500px;
     width: 45% ;
    font-size: large;
    direction: rtl;
    padding: 30px;
- 
 }
+
 .aboutus span{
  font-weight: bold;
 font-size: 40px;
-
 }
 
-button:hover{
-    color:rgb(15, 83, 21);
-    background-color:white
-    
-}
-.eightpic{
+.homepic{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    
+
 }
-.eightpic img{
+.homepic  img{
     width: 250px;
     height: 250px;
     margin: 10px;
    
 }
 
-.eightpic img:hover{
+.homepic img:hover{
     width: 270px ;
     height: 270px ;
     transition: 2s;
-    
-
 }
+
 h1{
     direction: rtl;
 }
+
 .containerform{
     display: flex;
     justify-content: space-evenly;
@@ -172,11 +147,11 @@ h1{
 @media screen and (max-width: 425px){
     .aboutas img , p{
         width: 50%;
-        height: 100%;
-        font-size: 50%;
+        height: 50%;
+        font-size: 20%;
      }
 }
-ul{
+ footer ul{
     width: 94vw;
     display: flex;
     justify-content: space-evenly;
@@ -190,24 +165,14 @@ ul{
     color: black;
     direction: rtl;
     font-weight: bold;
+}
    
 
 
 
 
 
-/* 
-animation-name: example;
-animation-duration: 4s;
-animation-iteration-count: infinite;
-background-size:cover;
 
-}
 
-@keyframes example {
-0% {background-image: url(https://cdn.pixabay.com/photo/2017/09/25/13/12/dog-2785074_1280.jpg);}
-25%{background-image: url(https://cdn.pixabay.com/photo/2015/03/26/09/54/pug-690566__340.jpg);}
-50% {background-image: url(https://cdn.pixabay.com/photo/2019/08/19/07/45/dog-4415649__340.jpg);}
-100%{background-image: url(https://media.istockphoto.com/photos/british-shorthair-and-golden-retriever-picture-id1271494334?b=1&k=6&m=1271494334&s=170667a&w=0&h=ZeLa5KNjpQLEhpQnBioFqimxPgej3X2JYNeITTuNkxM=);}
 
-} */
+
